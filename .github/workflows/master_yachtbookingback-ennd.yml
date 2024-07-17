@@ -51,4 +51,4 @@ jobs:
           app-name: 'YachtBookingBack-Ennd'
           slot-name: 'Production'
           package: '*.jar'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_07B7CB10FAC545EDAB01158988EE6EB9 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0F69557FF8894582BEDB9924B961DE6A }}
