@@ -5,6 +5,8 @@ name: Build and deploy JAR app to Azure Web App - YachtBookingBack-Ennd
 
 on:
   push:
+    paths:
+      - 'YachtBookingBack/**'
     branches:
       - master
   workflow_dispatch:
