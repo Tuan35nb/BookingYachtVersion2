@@ -5,8 +5,6 @@ name: Build and deploy JAR app to Azure Web App - YachtBookingBack-Ennd
 
 on:
   push:
-    paths:
-      - 'YachtBookingBackEnd/**'
     branches:
       - master
   workflow_dispatch:
@@ -53,4 +51,4 @@ jobs:
           app-name: 'YachtBookingBack-Ennd'
           slot-name: 'Production'
           package: '*.jar'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0A57111CC56D4A5996057584B4BC0474 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_07B7CB10FAC545EDAB01158988EE6EB9 }}
